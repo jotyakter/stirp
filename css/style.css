@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.logo{
+    padding: 10px;
+}
+
+.logo img{
+    padding: 40px 0;
+}
+
+/* section one start */
+
+.sec_one{
+    background: url(../img/background_image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 800px; */
+    color: #fff;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.sec_one h1{
+    font-size: 120px;
+    padding: 210px 0 35px 0;
+}
+
+.sec_one span{
+    border-bottom: 2px solid #15a4fa;
+    display: block;
+    width: 60%;
+    margin: 0 auto 40px auto;
+}
+
+.sec_one h2{
+
+}
+
+.call-btn{
+    padding: 10px 15px;
+    background: transparent;
+    border: 1px solid #15a4fa;
+    margin: 60px 0px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.sec_one a{
+    width: 100%;
+    float: left;
+}
+
+.sec_one a i{
+    color: #fff;
+    font-size: 30px;
+}
+
+.sec_one a i:hover{
+    color: maroon;
+    cursor: pointer;
+}
+
+
+/* section two start */
+
+.sec_two{ 
+    padding: 80px 0px 110px 0px;
+}
+
+.sec_two h1{
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.sec_two p{
+    font-size: 20px;
+    text-align: justify;
+    padding: 0px 45px;
+}
+
+/* section three */
+
+
+.sec_three{
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.sec_three img{
+    padding-bottom: 15px;
+}
+
+.sec_three h1{
+    font-size: 22px;
+    padding-bottom: 20px;
+}
+
+.sec_three p{
+    font-size: 15px;
+}
+
+/* section four start */
+
+.sec_four{
+    padding: 25px 0;
+    text-align: center;
+}
+
+.sec_four h1{
+    text-align: center;
+    padding-bottom: 15px;
+    font-size: 41px;
+}
+
+.sec_four p{
+    text-align: center;
+    padding-bottom: 40px;
+    font-size: 15px;
+}
+
+.one{
+    padding: 10px 0px;
+}
+
+.one img{
+    margin-right: 10px;
+}
+
+.two{
+
+}
+
+.two img{
+    margin-right: 10px;
+}
+
+/* section five start */
+.sec_five{
+    width: 100%;
+
+    background: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 720px; */
+    padding: 50px 0;
+    overflow: hidden;
+}
+
+.s5-p1{
+    text-align: center;
+}
+
+.s5-p1 h1{
+    padding: 75px 0px 25px 0px;
+    font-size: 41px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.s5-p1 p{
+    font-size: 15px;
+    color: #999999;
+    padding-bottom: 55px;
+}
+
+.s5-p2{
+
+}
+
+form{
+
+}
+
+.name{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    background: transparent;
+    border: ridge;
+    color: #fff;
+}
+
+.email{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    background: transparent;
+    border: ridge;
+    color: #fff;
+}
+
+textarea{
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    background: transparent;
+    border: 2px solid #fff;
+    /* height: 200px; */
+    color: #fff;
+}
+
+.btn-send{
+    padding: 12px 25px;
+    background: transparent;
+    /* float: right; */
+    display: inline-block;
+    border: ridge;
+    color: #fff;
+    font-size: 15px;
+}
+
+/* section six start */
+
+.sec_six{
+    padding: 40px 0px;
+    
+}
+
+.s6-p1{
+
+}
+
+.s6-p1 h1{
+    font-size: 30px;
+}
+
+.icons{
+}
+
+.icons ul{
+    list-style: none;
+    text-align: right;
+}
+
+.icons ul li{
+    display: inline-block;
+    font-size: 30px;
+    margin: 0px 5px;
+}
+
+.icons ul li:last-child{
+    margin-right: 0;
+}
+
+.icons ul li a{
+
+}
+
+.icons ul li a i{
+    color: #15A4FA;;
+}
+
+
+
+
+
+
+/* media query */
+
+/* mobile device */
+
+@media (min-width: 320px) and (max-width:500px) {
+    .logo{
+        width: 100%;
+    }
+}
+
+/* small device */
+
+@media (min-width: 501px) and (max-width:768px) {
+
+}
+
+/* medium device */
+
+@media (min-width: 768.1px) and (max-width: 992px) {
+
+}
+
+/* desktop device */
+
+@media (min-width: 992.1px) and (max-width: 1200px) {
+
+}
+
+/* large device */
+
+@media (min-width: 1200.1px) {
+    
+}
